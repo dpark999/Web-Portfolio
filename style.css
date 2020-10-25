@@ -63,21 +63,23 @@ hr {
 }
 
 /*add colors to links*/
-a {
-  color:rgb(107, 161, 107);
-  font-family:impact;
-  letter-spacing:1px;
-}
+
 
 a:link {
-  color:rgb(167, 209, 167);
+  color:rgb(185, 228, 214);
 }
 a:visited{
-  color:rgb(185, 228, 214);
+  color:rgb(149, 223, 198);
 }
 a:hover{
   color:white;
 }
 a:active{
-  color:rgb(170,156,156);
+  color:rgb(223, 46, 46);
+}
+
+a {
+  color:rgb(166, 206, 166);
+  font-family:impact;
+  letter-spacing:1px;
 }
