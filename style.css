@@ -1,0 +1,82 @@
+/* center all text*/
+*{
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+
+/*header style*/
+}
+h1 {
+  font-size:50px;
+}
+
+/* wrapper for header*/
+.wrapper {
+  background-color:rgb(170, 156, 156);
+  color:antiquewhite;
+  font-family: "comic sans ms", Courier New;
+}
+
+/*background color for upper half */
+.intro {
+  background-color:antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*round out profile picture*/
+.selfpic {
+  width:400px;
+  height:400px;
+  border-radius: 50%;
+}
+
+/* make bullets for lists next to text*/
+ul {
+  list-style-position: inside;
+
+}
+
+/* alternate colors for backgrounds*/
+.contact {
+  background-color:rgb(170,156,156);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.bottom {
+  background-color:antiquewhite;
+}
+
+.footer {
+  background-color:rgb(170,156,156);
+}
+
+/*trim out map to be a circle*/
+.map {
+  border-radius:50%;
+}
+
+/*style rulers make dotted*/
+hr {
+  background-color:antiquewhite;
+  border-top:4px black dotted;
+}
+
+/*add colors to links*/
+a {
+  color:rgb(22, 58, 22);
+  font-family:impact;
+}
+
+a:link {
+  color:rgb(22,58,22);
+}
+a:visited{
+  color:rgb(93, 153, 133);
+}
+a:hover{
+  color:white;
+}
+a:active{
+  color:rgb(170,156,156);
+}
