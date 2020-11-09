@@ -84,6 +84,7 @@ a {
   letter-spacing:1px;
 }
 
+/* ADD FLEXBOX STYLE TO IMAGES FOR INTERESTS AND PROJECTS */
 .item {
   flex: 1;
 }
@@ -96,8 +97,8 @@ a {
 .group2 {
   display:flex;
   flex-direction: row;
-  margin:0;
 }
+
 section {
   background-color: rgb(170, 156, 156)
 }
@@ -110,6 +111,7 @@ h3 {
   background-color:rgb(170, 156, 156)
 }
 
+/* ADD MEDIA QUEREIES . MAKE INTERESTS IMAGES CIRCULAR WHEN OPEN ON A DESKTOP */
 @media all and (min-width:800px) {
   .group img {
     width:400px;
