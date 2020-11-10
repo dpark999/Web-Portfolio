@@ -126,7 +126,7 @@ a {
   display:flex;
   flex-direction: row;
 }
-
+/* image configuration for mobile*/
 .group img {
   border-radius:50%;
 }
@@ -139,6 +139,10 @@ a {
 
 .group2 img {
   border-radius:20%;
+}
+
+.item li {
+  list-style: none;
 }
 
 section {
