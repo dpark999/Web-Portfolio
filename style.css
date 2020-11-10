@@ -6,6 +6,10 @@
   font-family:"Gochi Hand";
 }
 
+body {
+  margin:auto;
+}
+
 /*Navigation styles */
 header nav{
   background-color: black;
