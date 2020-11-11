@@ -62,6 +62,10 @@ h1 {
   border-radius: 50%;
 }
 
+/* skyline scaling */
+.skyline img{
+  max-width: 100%;
+}
 
 /* make bullets for lists next to text*/
 ul {
